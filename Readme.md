@@ -40,3 +40,9 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 Valt te bekijken met sqlite extension voor vs code.
+## Tweede migration
+Code voor posts toegevoegd aan MyContext.cs.
+```
+dotnet ef migrations add Posts
+dotnet ef database update
+```
