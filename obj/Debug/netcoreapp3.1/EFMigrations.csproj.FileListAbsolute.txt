@@ -50,3 +50,4 @@
 /Users/hedzervandijk/Projects/EFMigrations/obj/Debug/netcoreapp3.1/EFMigrations.dll
 /Users/hedzervandijk/Projects/EFMigrations/obj/Debug/netcoreapp3.1/EFMigrations.pdb
 /Users/hedzervandijk/Projects/EFMigrations/obj/Debug/netcoreapp3.1/EFMigrations.genruntimeconfig.cache
+/Users/hedzervandijk/Projects/EFMigrations/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll

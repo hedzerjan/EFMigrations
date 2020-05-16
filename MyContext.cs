@@ -6,14 +6,15 @@ namespace EFModeling.FluentAPI.Required
     {
         public DbSet<Blog> Blogs { get; set; }
 
-        #region Required
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+                    => options.UseSqlite("Data Source=blogging.db");
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Blog>()
                 .Property(b => b.Url)
                 .IsRequired();
         }
-        #endregion
     }
 
     public class Blog
