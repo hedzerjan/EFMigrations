@@ -39,3 +39,4 @@ namespace EFModeling.FluentAPI.Required
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
+Valt te bekijken met sqlite extension voor vs code.
