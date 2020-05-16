@@ -15,6 +15,25 @@ namespace EFModeling.FluentAPI.Required
             modelBuilder.Entity<Blog>()
                 .Property(b => b.Url)
                 .IsRequired();
+            modelBuilder.Entity<Blog>().HasData(
+                new Blog
+                {
+                    BlogId = 1,
+                    Url = "http://sample.com"
+                },
+                new Blog
+                {
+                    BlogId = 2,
+                    Url = "http://sample2.com"
+                });
+            modelBuilder.Entity<Post>().HasData(
+                new Post()
+                {
+                    BlogId = 1,
+                    PostId = 1,
+                    Title = "First post",
+                    Content = "Test 1"
+                });
         }
     }
 
