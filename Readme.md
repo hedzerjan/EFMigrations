@@ -2,6 +2,8 @@
 Simpel beginnen, doel is om uit te vinden hoe migrations werken en hoe seeden werkt.
 ## Basis opzet
 ```
+mkdir EFMigrations
+cd EFMigrations
 dotnet new console
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 dotnet tool install --global dotnet-ef
