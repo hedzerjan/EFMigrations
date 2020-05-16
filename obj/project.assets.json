@@ -1035,7 +1035,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore.Sqlite >= *"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.4"
     ]
   },
   "packageFolders": {
@@ -1079,7 +1079,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[3.1.4, )"
           }
         },
         "imports": [
